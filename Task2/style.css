@@ -48,3 +48,10 @@ body {
     display: block;
     margin-top: 15px;
 }
+.footer {
+    clear: both;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
