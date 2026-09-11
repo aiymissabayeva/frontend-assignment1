@@ -14,3 +14,18 @@ body {
 a:hover{
     color: blue;
 }
+.profile-card {
+    width: 300px;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+#myph{
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
