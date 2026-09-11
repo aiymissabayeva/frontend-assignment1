@@ -26,3 +26,25 @@ body {
 .navbar a:hover{
     color: lightblue;
 }
+.sidebar {
+    float: left;
+    width: 15%;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.main-content {
+    float: right;
+    width: 60%;
+    margin: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.main-content img{
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 15px;
+}
