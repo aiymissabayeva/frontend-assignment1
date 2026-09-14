@@ -124,3 +124,11 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: square;
+}
