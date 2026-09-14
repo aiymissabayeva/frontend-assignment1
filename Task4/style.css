@@ -44,3 +44,56 @@ tr:nth-child(even) {
     background-color: #d8b4b8;
     font-weight: bold;
 }
+
+form {
+    width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8d0cb;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="radio"] + label {
+    display: inline;
+    margin-right: 20px;
+    font-weight: normal;
+}
+ button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+ }
+  button:hover {
+    background-color: #8b6670;
+  }
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
