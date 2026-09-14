@@ -1,6 +1,126 @@
 body {
     margin: 0;
-    background-color: rgb(212, 177, 133);
-    font-family: Arial, Helvetica, sans-serif;
-    color: antiquewhite;
+    background-color: #f4efe9; 
+    font-family: "DM Sans", sans-serif;
+    color: #1f1f1f;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 90%;
+    padding: 50px 0px;
+}
+
+h1 {
+    font-family: "Space Grotsk", sans-serif;
+    font-size: 80px;
+    margin: 0;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #8b6670;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-family: "Space Grotsk", sans-serif;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Space Grotsk", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8b6670;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 950px;
+    font-size: 29px;
+    line-height: 1.7;
+    color: #444;
+}
+
+ol, ul {
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 20px;
+    line-height: 1.8;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+.links {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: #8b6670;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 14px 20px;
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #8b6670;
+    transform: translateY(-3px);
+}
+
+.info {
+    float: left;
+    width: 52%;
+}
+
+.photo {
+    float: right;
+    width: 43%;
+}
+
+.details::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-top:  20px;
+}
+
+.photo img {
+    width: 100%;
+    max-width: none;
+    height: 650px;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
